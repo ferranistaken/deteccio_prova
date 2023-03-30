@@ -1,3 +1,3 @@
 1."py -m venv env"
 2."env\Scripts\activate"
-3."pip install labelme tensorflow matplotlib albumentations"
+3."py -m pip install labelme tensorflow matplotlib albumentations pyqt5" (tarda una estona en instal·lar tot)
