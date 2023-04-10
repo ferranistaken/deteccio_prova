@@ -1,3 +1,11 @@
 1."py -m venv env"
 2."env\Scripts\activate"
 3."py -m pip install labelme tensorflow matplotlib albumentations pyqt5" (tarda una estona en instal·lar tot)
+
+pooling es una operación que permite analizar el contenido de una imagen por regiones (o bloques) para extraer la información más representativa de las mismas.
+
+Al igual que el uso de strides, el max-pooling permite reducir la cantidad de datos entre una capa y otra, facilitando así el procesamiento de las imágenes y el entrenamiento de la red, pero a la vez preservando la información más relevante.
+
+En el caso del max-pooling la imagen es dividida en regiones del mismo tamaño, y para cada región se extrae simplemente el valor máximo que corresponderá a un pixel en la imagen resultante.
+
+Por ejemplo, a la imagen de 6x6 mostrada en la figura de abajo, aplicamos un filtro max-pooling de 2x2. Esto quiere decir que resultarán 9 diferentes regiones dentro de la imagen:
